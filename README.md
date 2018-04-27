@@ -34,10 +34,6 @@ By visiting http://localhost:PORT (in this project, the PORT is either the one a
 * Node.js
 * VSCode 
 
-
-## Author
-* **Ejike Onwe** - [Ejike Onwe](https://github.com/reyhenry38)
-
 ## License
 
 This project is opensourced for anyone who wishes to use it.
@@ -45,3 +41,6 @@ This project is opensourced for anyone who wishes to use it.
 ## Acknowledgments
 
 * Pa mi gente sabios!
+
+## Author
+* **Ejike Onwe** - [Ejike Onwe](c)2018(https://github.com/reyhenry38)
