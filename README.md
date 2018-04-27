@@ -1,7 +1,7 @@
 # Friend Finder
 Friend Finder helps you find a frend based on a survey that determines compatibility. This Node-based app uses Express.JS.
 
----![1](https://user-images.githubusercontent.com/31670361/39387842-ff485b16-4a49-11e8-9c1e-3e834b808a57.gif)
+---    !  [1](https://user-images.githubusercontent.com/31670361/39387842-ff485b16-4a49-11e8-9c1e-3e834b808a57.gif)
 
 ## Live App
 
