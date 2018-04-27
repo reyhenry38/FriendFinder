@@ -39,5 +39,5 @@ By visiting http://localhost:PORT (in this project, the PORT is either the one a
 This project is opensourced for anyone who wishes to use it.
 
 ## Author
-* **Ejike Onwe** - [Ejike Onwe](https://github.com/reyhenry38)
+[Ejike Onwe](https://github.com/reyhenry38)
  Copyright 2018.
