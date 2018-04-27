@@ -43,4 +43,4 @@ This project is opensourced for anyone who wishes to use it.
 * Pa mi gente sabios!
 
 ## Author
-* **Ejike Onwe** - [Ejike Onwe](c)2018(https://github.com/reyhenry38)
+* **Ejike Onwe** - [Ejike Onwe] Copyright 2018.  (https://github.com/reyhenry38)
