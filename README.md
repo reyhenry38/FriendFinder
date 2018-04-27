@@ -1,77 +1,47 @@
-# FriendFinder
-Compatibility-based "FriendFinder" application (basically a dating app).
+# Friend Finder
+Friend Finder helps you find a frend based on a survey that determines compatibility. This Node-based app uses Express.JS.
 
-Trilogy Education Services Full-Stack Web Developer Program
-
-University of Miami Cohort - 201710FSF3
-
-Week 13 Homework Assignment: Node and Express Servers
-
-Build a compatibility-based "FriendFinder" application.
+---![1](https://user-images.githubusercontent.com/31670361/39387842-ff485b16-4a49-11e8-9c1e-3e834b808a57.gif)
 
 ## Live App
 
-* Check out [the live version of the site here](https://friend-finder-mw.herokuapp.com/). 
+* Go to the Heroku App for this repo: [FriendFinder](https://arcane-river-79461.herokuapp.com/)
 
-### Overview
+### Pre-requisites
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. 
+* Install Node.js. visit https://nodejs.org/en/ and download
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+### Technologies used
 
-### Instructions
+*node.js
+*Express.js
 
-1. The survey has 10 questions. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
-2. The `server.js` file requires the basic npm packages: `express`, `body-parser` and `path`.
+### Getting Started
+This app is made possible with the following npm packages:
+* express
+* body-parser
+* path
 
-3. The `htmlRoutes.js` file includes two routes:
+In order to connect to the FriendFinder app server, type the following in the command line:
 
-   * A GET Route to `/survey` which displays the survey page.
-   * A default USE route that leads to `home.html` which displays the home page. 
+ node server.js
 
-4. The `apiRoutes.js` file contains two routes:
+By visiting http://localhost:PORT (in this project, the PORT is either the one available in the Node environment or 8080), one is directed to this web app after connecting to the server.
 
-   * A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends.
-   * A POST routes `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic. 
 
-5. Data is saved in the app as an array of objects. Each of these objects follows the format below.
+###Built With
+* Node.js
+* VSCode 
 
-```json
-{
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
-      2,
-      5,
-      4,
-      1
-    ]
-}
-```
 
-6. The app determines the user's most compatible friend using the following:
+## Author
+* **Ejike Onwe** - [Ejike Onwe](https://github.com/reyhenry38)
 
-   * Converts each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
-   * Then it compares the difference between current user's scores against those from other users, question by question. Adds up the differences to calculate the `totalDifference`.
-     * Example: 
-       * User 1: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`
-       * User 2: `[3, 2, 6, 4, 5, 1, 2, 5, 4, 1]`
-       * Total Difference: **2 + 1 + 2 =** **_5_**
-   * Using the absolute value of the differences. Put another way: no negative solutions! App calculates both `5-3` and `3-5` as `2`, and so on. 
-   * The closest is the user with the least amount of difference.
+## License
 
-7. Once the current user's most compatible friend is found, it displays the result as a modal pop-up.
-   * The modal displays both the name and picture of the closest match. 
+This project is opensourced for anyone who wishes to use it.
 
-- - -
+## Acknowledgments
 
-## Copyright
-
-Ejike Onwe (C) 2018. All Rights Reserved.
+* Pa mi gente sabios!

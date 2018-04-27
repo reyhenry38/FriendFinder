@@ -1,7 +1,7 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "Compatibility-based Friend Finder Application",
+  "description": "A compatibility-based \"FriendFinder\" application built with node and express servers.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,23 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m-wolowicz/FriendFinder.git"
+    "url": "git+https://github.com/hadicodes/FriendFinder.git"
   },
   "keywords": [
-    "Friend",
-    "Finder"
+    "node",
+    "express",
+    "dating-app"
   ],
-  "author": "Melissa Wolowicz",
-  "license": "MIT",
+  "author": "Hadi Yousufi",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/m-wolowicz/FriendFinder/issues"
+    "url": "https://github.com/hadicodes/FriendFinder/issues"
   },
-  "homepage": "https://github.com/m-wolowicz/FriendFinder#readme",
+  "homepage": "https://github.com/hadicodes/FriendFinder#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "path": "^0.12.7",
-    "require": "^2.4.20",
-    "uglify-js": "^3.3.9"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
   }
 }
